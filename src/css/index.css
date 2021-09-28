@@ -1,7 +1,11 @@
+body {
+    scroll-behavior: smooth;
+}
 .homepage {
     width:97%;
     margin-left: 3%;
     height:auto;
+    scroll-behavior: smooth;
 }
 
 .leftlogo {
@@ -71,15 +75,18 @@
 }
 
 .mainpage .left {
-    /* background-color: rgb(101, 101, 145); */
+    background-color: rgb(101, 101, 145);
     width:90%;
     height:min-content;
     position: relative;
     margin:0px;
+    padding:5px;
+    font-size: 20px;
 }
 .mainpage .left p {
     margin:0px;
     padding:0px;
+
 }
 .mainpage .left .space {
     width:100%;
@@ -90,6 +97,7 @@
     background-color: rgb(247, 243, 243);
     height:auto;
     top:0px;
+    font-size: 20px;
   
   
 }
