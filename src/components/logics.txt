@@ -1,0 +1,15 @@
+      
+    1.  
+      let rate=leftdivheight/(rightdivheight-leftdivheight);
+     
+      
+      let translate=scrolled/(1+rate);
+      leftdiv.style.transform='translateY('+translate+'px)';
+      
+
+
+    2.
+     let translate=(scrolled)/(rightdivheight/(pageheight-leftdivheight));
+
+     
+       

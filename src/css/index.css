@@ -67,12 +67,12 @@ body {
     /* background-color: blue; */
     width:100%;
     height: max-content;
+    margin:0px;
+    padding:0px;
     display:grid;
     grid-template-columns: 30% 70%;
 }
-.mainpage div {
-    margin:20px;
-}
+
 
 .mainpage .left {
     background-color: rgb(101, 101, 145);
@@ -113,6 +113,6 @@ body {
     width:100%;
     background-color: black;
     position: relative;
-    margin-top: 20px;
+margin-top: 10px;
    
 }

@@ -35,23 +35,22 @@ export default function Index() {
       function handleScroll(e) {
       
       const leftdiv=document.querySelector(".left");
-      const pageheight=document.querySelector('.homepage').offsetHeight;
+      const pageheight=document.querySelector('.mainpage').offsetHeight;
       let scrolled=window.pageYOffset;
+
       const leftdivheight=document.querySelector('.left').offsetHeight;
       const rightdivheight=document.querySelector('.right').offsetHeight;
       
-      // console.log('scrolled',scrolled);
-      // console.log('pageheight',pageheight);
-      // console.log('left & right', leftdivheight,rightdivheight);
-      
-      
-      let rate=leftdivheight/(rightdivheight-leftdivheight);
      
+      console.log('pageheight & scrolledheight & rightdivheight',pageheight,scrolled, rightdivheight);
       
-      let translate=scrolled/(1+rate);
+
+     
+      let translate=(scrolled)/(pageheight/(pageheight-leftdivheight));//at last of scroll pageheight must be equal to scrolled height but in our case page height is 150 more than scroll height which is causing extra space at bottom
+
+      
       leftdiv.style.transform='translateY('+translate+'px)';
       
-      console.log('scrolled')
       }
     
     window.addEventListener('scroll', debounce(handleScroll));
@@ -298,9 +297,42 @@ office workers home it put Stadium, a successful
     ceased operations as the way 
     we work (and ate) changed overnight.</p>
 
+   <p>What does the pandemic, a lunch delivery
+    service and a snack gifting platform have 
+    to do with each other? Everything.
+
+When COVID hit Manhattan in March 2020 and sent 
+office workers home it put Stadium, a successful
+ group lunch service on the sidelines. The delivery
+  brand which had revolutionized NYC office lunch with
+   top dishes from top restaurants all delivered together
+    ceased operations as the way 
+    we work (and ate) changed overnight.</p>
     <p>What does the pandemic, a lunch delivery
     service and a snack gifting platform have 
     to do with each other? Everything.
+
+When COVID hit Manhattan in March 2020 and sent 
+office workers home it put Stadium, a successful
+ group lunch service on the sidelines. The delivery
+  brand which had revolutionized NYC office lunch with
+   top dishes from top restaurants all delivered together
+    ceased operations as the way 
+    we work (and ate) changed overnight.</p>
+    <p>What does the pandemic, a lunch delivery
+    service and a snack gifting platform have 
+    to do with each other? Everything.
+
+When COVID hit Manhattan in March 2020 and sent 
+office workers home it put Stadium, a successful
+ group lunch service on the sidelines. The delivery
+  brand which had revolutionized NYC office lunch with
+   top dishes from top restaurants all delivered together
+    ceased operations as the way 
+    we work (and ate) changed overnight.</p>
+    <p>What does the pandemic, a lunch delivery
+    service and a snack gifting platform have 
+    to dwith each other? Everything.
 
 When COVID hit Manhattan in March 2020 and sent 
 office workers home it put Stadium, a successful
@@ -375,40 +407,7 @@ office workers home it put Stadium, a successful
    top dishes from top restaurants all delivered together
     ceased operations as the way 
     we work (and ate) changed overnight.</p>
-    <p>What does the pandemic, a lunch delivery
-    service and a snack gifting platform have 
-    to do with each other? Everything.
-
-When COVID hit Manhattan in March 2020 and sent 
-office workers home it put Stadium, a successful
- group lunch service on the sidelines. The delivery
-  brand which had revolutionized NYC office lunch with
-   top dishes from top restaurants all delivered together
-    ceased operations as the way 
-    we work (and ate) changed overnight.</p>
-    <p>What does the pandemic, a lunch delivery
-    service and a snack gifting platform have 
-    to do with each other? Everything.
-
-When COVID hit Manhattan in March 2020 and sent 
-office workers home it put Stadium, a successful
- group lunch service on the sidelines. The delivery
-  brand which had revolutionized NYC office lunch with
-   top dishes from top restaurants all delivered together
-    ceased operations as the way 
-    we work (and ate) changed overnight.</p>
-    <p>What does the pandemic, a lunch delivery
-    service and a snack gifting platform have 
-    to do with each other? Everything.
-
-When COVID hit Manhattan in March 2020 and sent 
-office workers home it put Stadium, a successful
- group lunch service on the sidelines. The delivery
-  brand which had revolutionized NYC office lunch with
-   top dishes from top restaurants all delivered together
-    ceased operations as the way 
-    we work (and ate) changed overnight.</p>
-
+ 
 
 
 
